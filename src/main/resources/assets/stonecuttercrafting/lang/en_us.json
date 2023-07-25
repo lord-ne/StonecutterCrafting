@@ -1,3 +1,5 @@
 {
-  
+  "item.stonecuttercrafting.stonecutter_nugget": "Stonecutter Nugget",
+  "item.stonecuttercrafting.stonecutter_template_basic": "Basic Stonecutter Template",
+  "item.stonecuttercrafting.stonecutter_template_reusable": "§6Reusable Stonecutter Template"
 }
