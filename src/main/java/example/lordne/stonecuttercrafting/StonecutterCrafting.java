@@ -1,6 +1,7 @@
 package example.lordne.stonecuttercrafting;
 
 import example.lordne.stonecuttercrafting.item.ModItems;
+import example.lordne.stonecuttercrafting.recipe.ModRecipeTypes;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -34,6 +35,9 @@ public class StonecutterCrafting
 
         // Register all items from the mod
         ModItems.register(modEventBus);
+
+        // Register custom recipe types
+        ModRecipeTypes.register(modEventBus);
 
         // Register the setup method for modloading
         modEventBus.addListener(this::setup);

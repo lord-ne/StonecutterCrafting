@@ -1,0 +1,17 @@
+{
+  "type": "stonecuttercrafting:crafting_shapeless_remainder",
+  "ingredientsNormal": [
+    {
+      "item": "stonecuttercrafting:stonecutter_nugget"
+    }
+  ],
+  "ingredientsUnused": [
+    {
+      "item": "minecraft:stone_bricks"
+    }
+  ],
+  "result": {
+    "item": "stonecuttercrafting:stonecutter_template_reusable",
+    "count": 1
+  }
+}
