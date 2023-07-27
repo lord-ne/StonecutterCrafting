@@ -16,10 +16,16 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MISC)));
 
     public static final RegistryObject<Item> STONECUTTER_TEMPLATE_BASIC = ITEMS.register("stonecutter_template_basic",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().tab(ItemGroup.TAB_SEARCH)));
 
     public static final RegistryObject<Item> STONECUTTER_TEMPLATE_REUSABLE = ITEMS.register("stonecutter_template_reusable",
-            () -> new ReusableItem(new Item.Properties().stacksTo(1)));
+            () -> new ReusableItem(new Item.Properties().stacksTo(1).tab(ItemGroup.TAB_SEARCH)));
+
+    public static final RegistryObject<Item> ANY_STONECUTTER_INPUT = ITEMS.register("any_stonecutter_input",
+            () -> new Item(new Item.Properties().tab(ItemGroup.TAB_SEARCH)));
+
+    public static final RegistryObject<Item> ANY_STONECUTTER_OUTPUT = ITEMS.register("any_stonecutter_output",
+            () -> new Item(new Item.Properties().tab(ItemGroup.TAB_SEARCH)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

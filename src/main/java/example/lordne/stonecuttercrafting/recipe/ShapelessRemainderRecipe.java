@@ -160,7 +160,7 @@ public class ShapelessRemainderRecipe implements IShapelessRemainderCrafting {
 //    }
 
     public static class Serializer extends ForgeRegistryEntry<IRecipeSerializer<?>> implements IRecipeSerializer<ShapelessRemainderRecipe> {
-        private static final ResourceLocation NAME = new ResourceLocation(StonecutterCrafting.MOD_ID, IShapelessRemainderCrafting.ID_NAME);
+        private static final ResourceLocation NAME = new ResourceLocation(StonecutterCrafting.MOD_ID, IShapelessRemainderCrafting.NAME);
         @Nonnull
         @ParametersAreNonnullByDefault
         public ShapelessRemainderRecipe fromJson(ResourceLocation id, JsonObject jsonObj) {
