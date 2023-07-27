@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "example.lordne.stonecuttercrafting.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "IMixinIngredient"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "stonecuttercrafting.mixin-refmap.json"
+}
