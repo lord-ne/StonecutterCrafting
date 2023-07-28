@@ -26,5 +26,6 @@ run
 forge*changelog.txt
 
 /mcmodsrepo/
+/src/generated/
 
 /.WIP files
