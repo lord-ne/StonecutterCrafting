@@ -1,10 +1,4 @@
-# Stonecutter Crafting
-<div style="margin: auto; width: 4em">
-
-![test](GitHub%20Images/Logo.gif)
-
-</div>
-
+# Stonecutter Crafting <img style="margin: auto; height:1.7em; transform:translate(-0.25em, 0.37em)" src="GitHub%20Images/Logo.gif"/>
 
 A Minecraft mod to allow crafting Stonecutter recipes in a regular crafting table.
 This can be useful for automation when it is not possible to automate the Stonecutter itself.
