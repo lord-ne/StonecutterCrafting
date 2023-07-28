@@ -23,8 +23,8 @@ The resulting Template is "bound" to those input and output blocks.
 
 ![test](GitHub%20Images/Template%20Crafting.gif)
 
-You can use this Template to craft the first block into the second block. The Template is not consumed. 
-You can put up to 8 of the first block in the Crafting Table with the Template to craft multiple at a time. 
+You can use this Template to craft the input block into the output block. The Template is not consumed. 
+You can put up to 8 of the input block in the Crafting Table with the Template to craft multiple at a time. 
 
 ![test](GitHub%20Images/Template%20Cutting.gif)
 
