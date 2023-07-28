@@ -1,5 +1,5 @@
 # Stonecutter Crafting
-<div style="margin: auto; width: 6em">
+<div style="margin: auto; width: 4em">
 
 ![test](GitHub%20Images/Logo.gif)
 
