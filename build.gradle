@@ -16,7 +16,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '0.0.0'
+version = '0.1.0'
 group = 'example.lordne.stonecuttercrafting' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'stonecuttercrafting'
 
