@@ -1,0 +1,22 @@
+{
+  "type": "stonecuttercrafting:template_creation_crafting",
+  "pattern": [
+    "I",
+    "N",
+    "O"
+  ],
+  "key": {
+    "I": {
+      "item": "stonecuttercrafting:any_stonecutter_input"
+    },
+    "O": {
+      "item": "stonecuttercrafting:any_stonecutter_output"
+    },
+    "N": {
+      "item": "stonecuttercrafting:stonecutter_nugget"
+    }
+  },
+  "result": {
+    "item": "stonecuttercrafting:stonecutter_template_reusable"
+  }
+}

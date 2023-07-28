@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {"item": "minecraft:granite"},
+    {"item": "minecraft:diorite"},
+    {"item": "minecraft:andesite"}
+  ],
+  "result": "minecraft:oak_slab",
+  "count": 2
+}

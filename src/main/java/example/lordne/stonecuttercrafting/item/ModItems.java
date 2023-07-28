@@ -22,10 +22,10 @@ public class ModItems {
             () -> new ReusableItem(new Item.Properties().stacksTo(1).tab(ItemGroup.TAB_SEARCH)));
 
     public static final RegistryObject<Item> ANY_STONECUTTER_INPUT = ITEMS.register("any_stonecutter_input",
-            () -> new Item(new Item.Properties().tab(ItemGroup.TAB_SEARCH)));
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> ANY_STONECUTTER_OUTPUT = ITEMS.register("any_stonecutter_output",
-            () -> new Item(new Item.Properties().tab(ItemGroup.TAB_SEARCH)));
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

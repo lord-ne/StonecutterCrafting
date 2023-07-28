@@ -11,8 +11,8 @@ public class ModRecipeTypes {
     public static final DeferredRegister<IRecipeSerializer<?>> RECIPE_SERIALIZER =
             DeferredRegister.create(ForgeRegistries.RECIPE_SERIALIZERS, StonecutterCrafting.MOD_ID);
 
-    public static final RegistryObject<ShapelessRemainderRecipe.Serializer> SHAPELESS_REMAINDER_SERIALIZER
-            = RECIPE_SERIALIZER.register(IShapelessRemainderCrafting.NAME, ShapelessRemainderRecipe.Serializer::new);
+    public static final RegistryObject<TemplateCreationRecipe.Serializer> TEMPLATE_CREATION_SERIALIZER
+            = RECIPE_SERIALIZER.register(TemplateCreationRecipe.NAME, TemplateCreationRecipe.Serializer::new);
 
     public static void register(IEventBus eventBus) {
         RECIPE_SERIALIZER.register(eventBus);
