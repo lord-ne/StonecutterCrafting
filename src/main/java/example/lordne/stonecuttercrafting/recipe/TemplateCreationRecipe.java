@@ -11,6 +11,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.*;
 import net.minecraft.nbt.*;
 import net.minecraft.network.PacketBuffer;
+import net.minecraft.util.JSONUtils;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
@@ -123,8 +124,9 @@ public class TemplateCreationRecipe extends ShapedRecipe {
         String inputItemJsonString = inputIngredient.toJson().toString();
 
         ItemStack rtn = getResultItem().copy();
-        rtn.addTagElement("stonecuttercrafting/output_ItemStack_NBT", outputItemNBT);
-        rtn.getTag().putString("stonecuttercrafting/input_Ingredient_JsonString", inputItemJsonString);
+        CompoundNBT tag = rtn.getOrCreateTagElement("stonecuttercrafting/recipeData");
+        tag.put("output_ItemStack_NBT", outputItemNBT);
+        tag.putString("input_Ingredient_JsonString", inputItemJsonString);
 
         String loreString = "[" +
                 ingredientDisplayComponent(

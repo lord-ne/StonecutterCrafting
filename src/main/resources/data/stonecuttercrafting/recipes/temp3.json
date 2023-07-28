@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": [
-    {"tag": "minecraft:planks"},
-    {"item": "minecraft:stone"}
-  ],
-  "result": "minecraft:quartz_slab",
-  "count": 2
-}

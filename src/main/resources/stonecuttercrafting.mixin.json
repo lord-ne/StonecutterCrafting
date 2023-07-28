@@ -3,8 +3,6 @@
   "package": "example.lordne.stonecuttercrafting.mixin",
   "compatibilityLevel": "JAVA_8",
   "client": [
-    "IMixinIngredient",
-    "IMixinIngredientTagList"
   ],
   "injectors": {
     "defaultRequire": 1

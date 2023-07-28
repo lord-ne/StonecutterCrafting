@@ -1,0 +1,18 @@
+{
+  "type": "stonecuttercrafting:template_cutting_crafting",
+  "ingredients": [
+    [
+      {"item": "stonecuttercrafting:stonecutter_template_reusable"},
+      {"item": "stonecuttercrafting:stonecutter_template_basic"}
+    ],
+    {"item":  "stonecuttercrafting:any_stonecutter_input"},
+    {"item":  "stonecuttercrafting:any_stonecutter_input"},
+    {"item":  "stonecuttercrafting:any_stonecutter_input"},
+    {"item":  "stonecuttercrafting:any_stonecutter_input"},
+    {"item":  "stonecuttercrafting:any_stonecutter_input"}
+  ],
+  "result": {
+    "item": "stonecuttercrafting:any_stonecutter_output",
+    "count": 5
+  }
+}

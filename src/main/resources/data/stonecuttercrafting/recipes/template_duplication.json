@@ -1,0 +1,13 @@
+{
+  "type": "stonecuttercrafting:template_duplication_crafting",
+  "ingredients": [
+    [
+      {"item": "stonecuttercrafting:stonecutter_template_reusable"},
+      {"item": "stonecuttercrafting:stonecutter_template_basic"}
+    ]
+  ],
+  "result": {
+    "item": "stonecuttercrafting:stonecutter_template_basic",
+    "count": 64
+  }
+}
